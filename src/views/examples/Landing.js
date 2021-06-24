@@ -80,17 +80,17 @@ class Landing extends React.Component {
                 <div className="col px-0">
                   <Row>
                     <Col lg="6">
-                      <h1 className="display-3 text-white">
+                      {/* <h1 className="display-3 text-white">
                         A beautiful Design System{" "}
                         <span>completed with examples</span>
-                      </h1>
+                      </h1> */}
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        The web devaloper and coding in general is realy intriguing thing
+                        understanding how the app or teh web page work is something 
+                        I want to know from I was young, I'm just curious about that all
                       </p>
                       <div className="btn-wrapper">
-                        <Button
+                        {/* <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
                           href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
@@ -99,8 +99,8 @@ class Landing extends React.Component {
                             <i className="fa fa-code" />
                           </span>
                           <span className="btn-inner--text">Components</span>
-                        </Button>
-                        <Button
+                        </Button> */}
+                        {/* <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
                           href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
@@ -111,7 +111,7 @@ class Landing extends React.Component {
                           <span className="btn-inner--text">
                             Download React
                           </span>
-                        </Button>
+                        </Button> */}
                       </div>
                     </Col>
                   </Row>
@@ -148,22 +148,27 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            201 Project
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                           Me and my classmates work on 201 project,
+                           which was about a freelancing website where you 
+                           can create you profile as an employee or employer,
+                           and you can contact anyone in our website easely pressing 
+                           on there email or phon number in there profiles 
+                           and they can do the same
+                           (I work on the JavaScript functionality and on CSS part)
+                    
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              HTML
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              CSS
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              JavaScript  
                             </Badge>
                           </div>
                           <Button
@@ -184,22 +189,17 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            301 Project
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          Coming soon
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              business
+                              React.JS
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
+                             React Boot-strap
                             </Badge>
                           </div>
                           <Button
@@ -220,22 +220,20 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            401 Project
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Coming soon 
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
-                              marketing
+                              .....
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              product
+                              .....
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              launch
+                              .....
                             </Badge>
                           </div>
                           <Button
@@ -256,7 +254,7 @@ class Landing extends React.Component {
           </section>
           <section className="section section-lg">
             <Container>
-              <Row className="row-grid align-items-center">
+              {/* <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
                   <img
                     alt="..."
@@ -328,12 +326,12 @@ class Landing extends React.Component {
                     </ul>
                   </div>
                 </Col>
-              </Row>
-            </Container>
+              </Row> */}
+            {/* </Container>
           </section>
           <section className="section bg-secondary">
-            <Container>
-              <Row className="row-grid align-items-center">
+            <Container> */}
+              {/* <Row className="row-grid align-items-center">
                 <Col md="6">
                   <Card className="bg-default shadow border-0">
                     <CardImg
@@ -399,12 +397,12 @@ class Landing extends React.Component {
                     </a>
                   </div>
                 </Col>
-              </Row>
-            </Container>
+              </Row> */}
+            {/* </Container>
           </section>
           <section className="section pb-0 bg-gradient-warning">
-            <Container>
-              <Row className="row-grid align-items-center">
+            <Container> */}
+              {/* <Row className="row-grid align-items-center">
                 <Col className="order-lg-2 ml-lg-auto" md="6">
                   <div className="position-relative pl-md-5">
                     <img
@@ -487,7 +485,7 @@ class Landing extends React.Component {
                     </CardBody>
                   </Card>
                 </Col>
-              </Row>
+              </Row> */}
             </Container>
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
@@ -510,15 +508,16 @@ class Landing extends React.Component {
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
-                  <h2 className="display-3">The amazing Team</h2>
+                  <h2 className="display-3">My Background</h2>
                   <p className="lead text-muted">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record maximum.
+                    I have a good backgoround about how the computer understanding any programible 
+                    languge how the code running what the errors could faced while programing and 
+                    what is the best logic to fixe it, I graduate as a mechatronics engineer so I woreked
+                    on C++ and PLC so I know the logic behind the programing I think 
                   </p>
                 </Col>
               </Row>
-              <Row>
+              {/* <Row>
                 <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
                     <img
@@ -689,12 +688,12 @@ class Landing extends React.Component {
                     </div>
                   </div>
                 </Col>
-              </Row>
-            </Container>
+              </Row> */}
+            {/* </Container>
           </section>
           <section className="section section-lg pt-0">
-            <Container>
-              <Card className="bg-gradient-warning shadow-lg border-0">
+            <Container> */}
+              {/* <Card className="bg-gradient-warning shadow-lg border-0">
                 <div className="p-5">
                   <Row className="align-items-center">
                     <Col lg="8">
@@ -720,12 +719,12 @@ class Landing extends React.Component {
                     </Col>
                   </Row>
                 </div>
-              </Card>
-            </Container>
+              </Card> */}
+            {/* </Container>
           </section>
           <section className="section section-lg bg-gradient-default">
-            <Container className="pt-lg pb-300">
-              <Row className="text-center justify-content-center">
+            <Container className="pt-lg pb-300"> */}
+              {/* <Row className="text-center justify-content-center">
                 <Col lg="10">
                   <h2 className="display-3 text-white">Build something</h2>
                   <p className="lead text-white">
@@ -735,8 +734,8 @@ class Landing extends React.Component {
                     to low ice.
                   </p>
                 </Col>
-              </Row>
-              <Row className="row-grid mt-5">
+              </Row> */}
+              {/* <Row className="row-grid mt-5">
                 <Col lg="4">
                   <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
                     <i className="ni ni-settings text-primary" />
@@ -767,10 +766,10 @@ class Landing extends React.Component {
                     up the bulk of the card's content.
                   </p>
                 </Col>
-              </Row>
+              </Row> */}
             </Container>
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -784,9 +783,9 @@ class Landing extends React.Component {
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
-            </div>
+            </div> */}
           </section>
-          <section className="section section-lg pt-lg-0 section-contact-us">
+          {/* <section className="section section-lg pt-lg-0 section-contact-us">
             <Container>
               <Row className="justify-content-center mt--300">
                 <Col lg="8">
@@ -860,10 +859,11 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <Download />
+          </section> */}
+          {/* <Download /> */}
         </main>
         <CardsFooter />
+        
       </>
     );
   }
